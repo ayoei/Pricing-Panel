@@ -1,0 +1,113 @@
+:root {
+  --bgcolor: #549ffe;
+  --txtcolor: #358af9;
+  --secondarycolor: #0963fb;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: var(--bgcolor);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.container {
+  width: 900px;
+  background-color: white;
+  padding: 30px 20px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.plan {
+  width: 30%;
+  margin: 0px 20px;
+}
+
+img {
+  width: 200px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: grey;
+}
+span {
+  font-size: 0.75em;
+  font-weight: bold;
+  color: var(--txtcolor);
+  letter-spacing: 0.3px;
+  display: block;
+}
+
+.price {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+hr {
+  opacity: 0.3;
+}
+
+.hr {
+  width: 80%;
+}
+
+/* -- Buttons -- */
+
+button {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.secondary-btn {
+  color: #358af9f2;
+  background: transparent;
+  border: 2px solid #358af960;
+  transition: all 0.5s ease;
+}
+
+.primary-btn {
+  color: white;
+  background: var(--txtcolor);
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.secondary-btn:hover {
+  background-color: rgb(233, 242, 255);
+  transition: all 0.5s ease;
+}
+
+.primary-btn:hover {
+  background-color: #358af9c8;
+  transition: all 0.5s ease;
+}
+
+/* -- Media Queries -- */
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .plan {
+    width: 100%;
+    margin: 10px;
+  }
+}
