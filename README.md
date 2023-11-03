@@ -4,4 +4,4 @@ The project was made with HTML and CSS.
 
 The pricing panel projst is the final project of the html and css section in The Web Developer Bootcamp 2023 for the instructor Colt Steel on Udemy.
 
-🔗 View Demo https://pricingpanel-ae.netlify.app/
+🔗 View Demo https://pricing-panel-ae.netlify.app/
